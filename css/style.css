@@ -423,8 +423,8 @@ header{
 }
 .wrapper3{
 	margin: 0 auto;
-	width: 60%;
-	border: 1px solid red;
+/* 	width: 60%;
+	border: 1px solid red; */
 }
 .ct_cont{
 	border: 1px solid yellow;
