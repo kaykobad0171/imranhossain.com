@@ -40,11 +40,11 @@
 			<nav class="menu">
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#resume">Resume</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -62,7 +62,7 @@
 
 					<div class="socile_icon">
 						<ul>
-							<li><a href="https://www.facebook.com/mdimranhossain.msp"><i class="fab fa-facebook" target="blank"></i></a></li>
+							<li><a href="https://www.facebook.com/mdimranhossain.msp" target="blank"><i class="fab fa-facebook"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/md-imran-hossain-tuhin-9130921a0/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
 							<li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="https://www.behance.net/mdImranhossaintuhin" target="blank"><i class="fab fa-behance"></i></a></li>
@@ -75,7 +75,7 @@
 	<!-- banner area end -->
 
 	<!-- about section start -->
-	<section class="about">
+	<section id="about" class="about">
 		<div class="wrapper">
 			<div class="a_content">
 				<div class="a_img">
@@ -143,15 +143,87 @@
 	<!-- skill section end -->
 
 	<!-- education section start -->
-	<section class="education">
-		<div class="edu_content">
-			<!-- ......... -->
+	<section id="resume" class="portfolio education">
+		<div class="pf_content">
+			<h3 class="ab_text">RESUME</h3>
+			<h1 class="a_h1 fs">More of my credentials.</h1>
+			<p class="pf_text">You will get the summary of my work experience and Education from here.</p>
+			
+			<div class="exper_wrapper">
+				<div class="exper-head">
+					<h1 class="exper-head_1">Work Experience</h1>
+				</div>
+					<!-- exper -->
+				<div id="right_r" class="exper">
+					<div class="exper-content">
+						<h3 class="exper_h3">UI UX Design</h3>
+						<p class="exper_text">2020 - Present</p>
+						<div class="exper-icon">
+							<i class="fas fa-briefcase"></i>
+						</div>
+					</div>
+				</div>
+				<!-- exper -->
+				<div id="left_l" class="exper">
+					<div class="exper-content">
+						<h3 class="exper_h3">Creative It</h3>
+						<p class="exper_text">Creative It is a Post-production image editing & Cliping path company. Besides my work, I'm developing a website using Python and Django frameworks.</p>
+					</div>
+				</div>
+				<!-- exper -->
+
+				<div class="exper-head">
+					<h1 class="exper-head_1">Education</h1>
+				</div>
+				<!-- exper -->
+				<div id="right_r" class="exper">
+					<div class="exper-content">
+						<h3 class="exper_h3">Diploma</h3>
+						<p class="exper_text">2019</p>
+						<div class="exper-icon">
+							<i class="fas fa-graduation-cap"></i>
+						</div>
+					</div>
+				</div>
+				<!-- exper -->
+				<div id="left_l" class="exper">
+					<div class="exper-content">
+						<h3 class="exper_h3">Printing Technology</h3>
+						<p class="exper_text">I have completed my Diploma In Engineering course on "Printing Technology" from Graphic Arts Institute. <strong>Graphic Arts Institute</strong> is the only government institute in Bangladesh. I have complete my 4 years diploma in 2014. </p>
+					</div>
+				</div>
+				<!-- exper -->
+
+				<!-- exper -->
+				<div id="right_r" class="exper">
+					<div class="exper-content">
+						<h3 class="exper_h3">SSC</h3>
+						<p class="exper_text">2015</p>
+						<div class="exper-icon">
+							<i class="fas fa-graduation-cap"></i>
+						</div>
+					</div>
+				</div>
+				<!-- exper -->
+				<div id="left_l" class="exper">
+					<div class="exper-content">
+						<h3 class="exper_h3">Macanical</h3>
+						<p class="exper_text">I have completed my Secondary School Certificate in Macanical group from <strong>Purbahur High School.</strong></p>
+					</div>
+				</div>
+				<!-- exper -->
+
+			</div>
 		</div>
 	</section>
 	<!-- education section end -->
 
+
+
+
+
 	<!-- portfolio section start -->
-	<section class="portfolio">
+	<section id="portfolio" class="portfolio">
 		<div class="pf_content">
 			<h3 class="ab_text">MY PORTFOLIO</h3>
 			<h1 class="a_h1 fs">Check Out Some Of My Works.</h1>
@@ -164,7 +236,7 @@
 	<!-- portfolio section end -->
 
 	<!-- service section start -->
-	<section class="service">
+	<section id="service" class="service">
 		<div class="wrapper">
 			<div class="pf_content sv_content">
 				<h3 class="ab_text">SERVICES</h3>
@@ -274,9 +346,9 @@
 	<!-- work section start -->
 
 	<!-- contact section start -->
-	<section class="portfolio contact">
+	<section id="contact" class="portfolio contact">
 		<div class="wrapper3">
-				<div class="pf_content ct_cont">
+			<div class="pf_content ct_cont">
 				<h3 class="ab_text">CONTACT</h3>
 				<h1 class="a_h1 fs ct_h1">I'd Love To Hear From You.</h1>
 				<p class="pf_text ct_text">Send me a message if you need any kind of service from me, I will contact back to you as soon as posssible.</p>
@@ -292,9 +364,84 @@
 				<br>
 				<button type="submit" class="ct_btn">SUBMIT</button>
 				</form>
+
+				<!-- contact single start -->
+				<div class="ct_single">
+					<div class="cts1_content">
+						<div class="cts_icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<h3 class="cts1_h3">WHERE TO FIND ME</h3>
+						<address>
+							<p class="add_p">
+								House #1207<br>
+								Mohammadpur, Dhaka<br>
+								Bangladesh
+							</p>
+						</address>
+					</div>
+				</div>
+				<!-- contact single start -->
+
+				<!-- contact single start -->
+				<div class="ct_single">
+					<div class="cts1_content">
+						<div class="cts_icon">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<h3 class="cts1_h3">EMAIL ME AT</h3>
+						<address>
+							<p class="add_p">
+								imrantsaj@gmail.com<br>
+								info@imranhossain.com
+							</p>
+						</address>
+					</div>
+				</div>
+				<!-- contact single start -->
+
+				<!-- contact single start -->
+				<div class="ct_single">
+					<div class="cts1_content">
+						<div class="cts_icon">
+							<i class="fas fa-phone-alt"></i>
+						</div>
+						<h3 class="cts1_h3">CALL ME AT</h3>
+						<address>
+							<p class="add_p">
+								Mobile 0: (+880) 1980379313<br>
+								Mobile 1: (+880) 1789885538
+							</p>
+						</address>
+					</div>
+				</div>
+				<!-- contact single start -->
 			</div>
 		</div>
 	</section>
 	<!-- contact section end -->
+
+	<!-- footer start -->
+	<footer>
+		<div class="wrapper3">
+			<div class="footer_content">
+				<div class="f_left">
+					<p>&#169 imranhossain.com | 2021 | Design by <a href="http://portfolio.service-shakil.com/" target="blank">service-shakil.com</a></p>
+				</div>
+				<div class="f_right">
+					<ul>
+						<li><a href="https://www.facebook.com/mdimranhossain.msp" target="blank"><i class="fab fa-facebook"></i></a>	</li>
+						<li><a href="https://www.linkedin.com/in/md-imran-hossain-tuhin-9130921a0/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://www.behance.net/mdImranhossaintuhin" target="blank"><i class="fab fa-behance"></i></a></li>
+						<li><a href="#" target="blank"><i class="fab fa-skype"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<button id="up" type="b_btn"><a href="index.html">^</a></button>
+	</footer>
+	<!-- fotter end -->
 </body>
 </html>
