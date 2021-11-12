@@ -103,6 +103,7 @@ header{
 	color: white;
 }
 .b_btn{
+	cursor: pointer;
 	margin-bottom: 200px;
 	color: white;
 	border: 3px solid rgba(255, 255, 255, 0.3);
@@ -256,13 +257,12 @@ header{
 	background-color: #313131;
 	border-radius: 30px;
 }
-
 .sk_btn{
 	margin: 50px 0 130px;
 	text-align: center;
-
 }
 .hire{
+	cursor: pointer;
 	margin: 20px 0 50px;
 	border-color: #313131;
 	margin: 0;
@@ -273,6 +273,7 @@ header{
 	color: orange;
 }*/
 .dwn{
+	cursor: pointer;
 	border: none;
 	margin: 0;
 	background-color: #313131;
@@ -284,8 +285,58 @@ header{
 
 /*education section start*/
 .education{
-	height: 10px;
+	min-height: 10px;
 	background-color: #EBEBEB;
+}
+.exper_wrapper{
+	overflow: hidden;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	width: 80%;
+}
+.exper-head_1 {
+	margin: 40px 0 40px 0;
+	font-size: 25px;
+	color: orange;
+}
+.exper{
+	min-height: 132px;
+	float: left;
+	width: 45%;
+	/*border: 1px solid greenyellow;*/
+}
+#right_r{
+	position: relative;
+	border-right: 1px solid #D3D3D3;
+
+	padding: 0 4% 0 0;
+	text-align: right;
+}
+#left_l{
+	padding: 0 0 0 4%;
+	text-align: left;
+}
+.exper-content{}
+.exper_h3{
+
+	font-size: 20px;
+	color: #313131;
+}
+.exper_text{}
+.exper-icon {
+	position: absolute;
+	text-align: center;
+	background-color: #313131;
+	width: 6%;
+	min-height: 43px;
+	top: 10px;
+	left: 97%;
+	border-radius: 50%;
+}
+.exper-icon i {
+	color: white;
+	margin-top: 10px;
+	font-size: 20px;
 }
 /*education section end*/
 
@@ -418,16 +469,18 @@ header{
 /*work section end*/
 
 /*contact section start*/
-.contact{
+.contact {
 	background-color: #151515;
+	padding: 60px 0 70px 0;
 }
 .wrapper3{
 	margin: 0 auto;
-/* 	width: 60%;
-	border: 1px solid red; */
+	width: 60%;
+	/*border: 1px solid red;*/
 }
 .ct_cont{
-/* 	border: 1px solid yellow; */
+	overflow: hidden;
+	/*border: 1px solid yellow;*/
 }
 .ct_h1{
 	color: white;
@@ -461,6 +514,7 @@ header{
 	min-height: 100px;
 }
 .ct_btn {
+	cursor: pointer;
 	margin-top: 50px;
 	width: 54%;
 	height: 60px;
@@ -475,4 +529,83 @@ header{
 .ct_btn:hover{
 	background-color: rgba(255, 255, 255, 0.7);
 }
+
+.ct_single{
+	width: 20%;
+	/*background-color: lightblue;*/
+	margin: 60px 20% 0 0;
+	float: left;
+}
+.ct_single:last-child{
+	margin-right: 0;
+}
+.cts1_content{}
+.cts_icon{
+	color: white;
+	font-size: 40px;
+}
+.cts1_h3{
+	font-size: 17px;
+	font-weight: 600;
+	color: orange;
+}
+.add_p{
+	line-height: 30px;
+	font-style: normal;
+}
 /*contact section end*/
+
+/*footer section start*/
+footer{
+	position: relative;
+	min-height: 60px;
+	background: black;
+	background-color: black;
+}
+.footer_content {
+	overflow: hidden;
+	padding: 8px 0 0 0;
+}
+.f_left{
+	float: left;
+}
+.f_left a{
+	color: white;
+	text-decoration: none;
+}
+.f_right{
+	float: right;
+}
+.f_right ul{
+	overflow: hidden;
+}
+.f_right ul li{
+	margin-right: 30px;
+	float: left;
+	list-style: none;
+}
+.f_right ul li:last-child{
+	margin-right: 0;
+}
+.f_right ul li a{
+	color: white;
+	font-size: 20px;
+	transition: .3s;
+}
+.f_right ul li:hover a{
+	color: orange;
+}
+
+#up {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: orange;
+	color: white;
+	border: none;
+	font-size: 25px;
+	top: 4px;
+	left: 1800px;
+	border-radius: 10px;
+}
+/*footer section start*/
